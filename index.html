@@ -1,5 +1,18 @@
 <!doctype html>
 <html lang="pt-BR">
+<script>
+<!--by: victor-->
+senha = prompt("Digite sua senha:","");
+   if (senha =="futebol.10"){
+   document.getElementById('pagina').style.display = 'block';
+   }else if(senha ==""){
+      alert("campo obrigatorio");window.location = "login.html"
+      }else if(senha =="sair"){
+            alert("cancelado");window.location = "/forum"
+}else{
+alert("senha errada");window.location = "login.html"
+}
+</script>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -89,7 +102,7 @@
     <div class="button">subscribe</div>
   </section>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;<strong>WebSDR HTML5 sound - Copyright 2007-2021, P.T. de Boer, pa3fwm@websdr.org<br>PY4CAP - UNIVERSIDADE FEDERAL DE SÃO JOÃO DEL REI</strong></div>
+  <div class="copyright">&copy;<strong>2021 Vinicius Marques - viniciusmrqs@outlook.com<br></div>
 
 </div>
 <!-- Main Container Ends -->
